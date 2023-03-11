@@ -18,6 +18,12 @@
  
   Yanking: reinserting killed string
 
+## Major Modes
+
+Documentation on current major-mode: `C-h m`
+
+Switch Major Modes: `M-x {insert mode here}` some modes include `fundamental-mode` (programming/text editing) `text-mode` (prose editing)
+
 ## File Search & Manipulation
 
   Find File: `C-x C-f` or `space .` or `:e ~/path/to/file` or `M-x find-file`
