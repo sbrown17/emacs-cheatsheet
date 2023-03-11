@@ -8,6 +8,12 @@
 
 `<SPC>`: Spacebar
 
+ Delete: remove character and can't reinsert it
+ 
+ Kill: remove character, but it can be reinserted
+ 
+ Yanking: reinserting killed string
+
 ## File Search & Manipulation
 
 Find File: `space .` or `:e ~/path/to/file` or `M-x find-file`
@@ -54,13 +60,15 @@ save all buffers: `C-x s`
   
   Delete next character: `C-d`
   
-  Delete word before cursor: `M-<DEL>`
+  Kill word before cursor: `M-<DEL>`
   
-  Delete next word: `M-d`
+  Kill next word: `M-d`
   
-  Delete to the end of the line: `C-k`
+  Kill to the end of the line: `C-k`
   
-  Delete to the end of the sentence: `M-k`
+  Kill to the end of the sentence: `M-k`
+  
+  Kill spanse of characters: `C-<SPC>` move cursor to highlight spanse `C-w`
   
 ## Help
 
