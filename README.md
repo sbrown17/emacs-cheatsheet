@@ -135,11 +135,19 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
 
   general help menu: `C-h ?`
   
+  Open Emacs help Directory: `C-h r`
+  
+  Describe a function: `C-h f` + {name of function}
+  
+  List of commands whose name conatain {keyword}: `C-h a` + {keyword}
+  
   help description in mini buffer for command: `C-h c` + {specific command} eg. `C-h c C-p` should give back "C-p runs the command previous-line"
 
   open help window for {specific command}: `C-h k` + {specific command}
 
   scroll help window: `C-M-v`
+  
+  read included manuals(manuals for packages installed on system): `C-h i`
   
 ### Recursive editing level
   
