@@ -52,7 +52,7 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
 
   close all buffers except the focused one: `C-x 1`
   
-  ### Window management
+  ### Window management (inside single emacs client)
   
   split screen into 2 windows: `C-x 2`
   
@@ -62,6 +62,12 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   
   scroll other window: `C-M-v`
   
+  ### Frame management (open/manipulate multiple emacs clients)
+  
+  Open second frame: `C-x 5 2`
+  
+  Close selected frame: `C-x 5 0`
+ 
 
 ## Modifiers
 
