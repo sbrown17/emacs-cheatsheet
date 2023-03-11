@@ -18,6 +18,8 @@ save all buffers: `C-x s`
   
   previous page: `M-v`
   
+  move to cursor: `C-l` (1x centers, 2x moves cursor line to top, 3x moves to bottom)
+  
   move cursor up (previous): `C-p`
   
   move cursor down (next): `C-n`
