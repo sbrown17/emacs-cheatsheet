@@ -39,6 +39,8 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   dired: `M-x dired` dired is a better find file, it opens a file manager in emacs
   
   end emacs session: `C-x C-c`
+  
+  adjust line length/margin: `C-x f {insert number}` The default should be 70
 
   ### Buffer Management
 
@@ -49,6 +51,7 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   save all buffers: `C-x s`
 
   close all buffers except the focused one: `C-x 1`
+  
 
 ## Modifiers
 
@@ -85,6 +88,12 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   move cursor to end of sentence: `M-e`
   
   move cursor to beginning of sentence: `M-a`
+  
+  ### Search
+  
+  search forward: `C-s`
+  
+  search reverse: `C-r`
   
 ## Delete | Copy | Paste
   
