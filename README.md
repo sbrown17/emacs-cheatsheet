@@ -74,6 +74,8 @@
   
   Kill spanse of characters: `C-<SPC>` move cursor to highlight spanse `C-w`
   
+  Yank killed text: `C-y`
+  
 ## Help
 
   open help window for {specific command}: `C-h k` + {specific command}
