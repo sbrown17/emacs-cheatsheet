@@ -45,6 +45,20 @@ save all buffers: `C-x s`
   
   move cursor to beginning of sentence: `M-a`
   
+## Delete | Copy | Paste
+  
+  Delete the character before the cursor: `<DEL>`
+  
+  Delete next character: `C-d`
+  
+  Delete word before cursor: `M-<DEL>`
+  
+  Delete next word: `M-d`
+  
+  Delete to the end of the line: `C-k`
+  
+  Delete to the end of the sentence: `M-k`
+  
 ## Help
 
 open help window for {specific command}: `C-h k` + {specific command}
