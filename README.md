@@ -1,4 +1,4 @@
-# emacs-cheatsheet
+# Emacs Cheatsheet
 
 ## Glossary
 
