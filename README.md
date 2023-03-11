@@ -25,6 +25,8 @@
     - finding a non-existent file will create a new one, finding multiple will open multiple buffers each with one of the files within
 
   dired: `M-x dired` dired is a better find file, it opens a file manager in emacs
+  
+  end emacs session: `C-x C-c`
 
   ### Buffer Management
 
