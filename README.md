@@ -1,5 +1,7 @@
 # emacs-cheatsheet
 
+## File Search & Manipulation
+
 Find File: `space .` or `:e ~/path/to/file` or `M-x find-file`
 
 dired: `M-x dired` dired is a better find file, it opens a file manager in emacs
@@ -10,7 +12,7 @@ save current buffer: `C-x C-s`
 
 save all buffers: `C-x s`
 
-##movement
+## Movement
   
   next page: `C-v`
   
@@ -31,9 +33,13 @@ save all buffers: `C-x s`
   move cursor to end of sentence: `M-e`
   
   move cursor to beginning of sentence: `M-a`
+  
+## Help
 
 open help window for {specific command}: `C-h k` + {specific command}
 
 scroll help window: `C-M-v`
+
+## Window Management
 
 close all windows except the focused one: `C-x 1`
