@@ -18,11 +18,17 @@
  
   Yanking: reinserting killed string
 
-## Major Modes
+## Modes
+
+### Major Modes
 
 Documentation on current major-mode: `C-h m`
 
 Switch Major Modes: `M-x {insert mode here}` some modes include `fundamental-mode` (programming/text editing) `text-mode` (prose editing)
+
+## Minor Modes
+
+toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill-mode`
 
 ## File Search & Manipulation
 
