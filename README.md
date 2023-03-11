@@ -30,7 +30,7 @@
 
   numeric modifier of commands: `C-u` + a number | eg (`C-u 8 *` to insert 8 asterisks)
   
-  undo: `C-/`
+  undo: `C-/` or `C-_` of `C-x` (similar to yank, but you can undo deleted text as well, not just killed text)
 
 ## Movement
   
