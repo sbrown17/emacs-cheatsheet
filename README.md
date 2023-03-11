@@ -10,16 +10,26 @@ save current buffer: `C-x C-s`
 
 save all buffers: `C-x s`
 
-movement
+##movement
+  
   next page: `C-v`
+  
   previous page: `M-v`
+  
   move cursor up (previous): `C-p`
+  
   move cursor down (next): `C-n`
+  
   move cursor forward: `C-f`
+  
   move cursor backward: `C-b`
+  
   move cursor forward by a word: `M-f`
+  
   move cursor back by a word: `M-b`
+  
   move cursor to end of sentence: `M-e`
+  
   move cursor to beginning of sentence: `M-a`
 
 open help window for {specific command}: `C-h k` + {specific command}
