@@ -1,5 +1,10 @@
 # emacs-cheatsheet
 
+## Glossary
+
+<DEL>: Backspace
+<RET>: Enter|Return
+
 ## File Search & Manipulation
 
 Find File: `space .` or `:e ~/path/to/file` or `M-x find-file`
