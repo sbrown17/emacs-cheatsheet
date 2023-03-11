@@ -32,6 +32,10 @@ save all buffers: `C-x s`
   
   move cursor back by a word: `M-b`
   
+  move curser to beginning of line: `C-a`
+  
+  move curser to end of line: `C-e`
+  
   move cursor to end of sentence: `M-e`
   
   move cursor to beginning of sentence: `M-a`
