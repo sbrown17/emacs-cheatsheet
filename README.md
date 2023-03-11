@@ -21,20 +21,28 @@
 ## File Search & Manipulation
 
   Find File: `C-x C-f` or `space .` or `:e ~/path/to/file` or `M-x find-file`
+  
+    - finding a non-existent file will create a new one, finding multiple will open multiple buffers each with one of the files within
 
   dired: `M-x dired` dired is a better find file, it opens a file manager in emacs
 
-  insert non-ascii/unicode characters by name: `C-x 8`
+  ### Buffer Management
+
+  list buffers: `C-x C-b`
 
   save current buffer: `C-x C-s`
 
   save all buffers: `C-x s`
+
+  close all buffers except the focused one: `C-x 1`
 
 ## Modifiers
 
   numeric modifier of commands: `C-u` + a number | eg (`C-u 8 *` to insert 8 asterisks)
   
   undo: `C-/` or `C-_` of `C-x` (similar to yank, but you can undo deleted text as well, not just killed text)
+  
+  insert non-ascii/unicode characters by name: `C-x 8`
 
 ## Movement
   
@@ -90,6 +98,4 @@
 
   scroll help window: `C-M-v`
 
-## Window Management
 
-  close all windows except the focused one: `C-x 1`
