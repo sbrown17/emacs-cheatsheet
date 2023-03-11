@@ -133,6 +133,10 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   
 ## Help
 
+  general help menu: `C-h ?`
+  
+  help line in mini buffer for command: `C-h c` + {specific command} eg. `C-h c C-p` should give back "C-p runs the command previous-line"
+
   open help window for {specific command}: `C-h k` + {specific command}
 
   scroll help window: `C-M-v`
