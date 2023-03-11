@@ -2,6 +2,10 @@
 
 ## Glossary
 
+  `C-`: Hold Control and type whatever character comes after the hyphen
+  
+  `M-`: Hold Alt (or tap escape) and type whatever character comes after the hyphen
+
   `<DEL>`: Backspace
   
   `<RET>`: Enter|Return
