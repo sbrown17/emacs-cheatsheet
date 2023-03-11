@@ -2,8 +2,11 @@
 
 ## Glossary
 
-<DEL>: Backspace
-<RET>: Enter|Return
+`<DEL>`: Backspace
+  
+`<RET>`: Enter|Return
+
+`<SPC>`: Spacebar
 
 ## File Search & Manipulation
 
