@@ -52,6 +52,16 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
 
   close all buffers except the focused one: `C-x 1`
   
+  ### Window management
+  
+  split screen into 2 windows: `C-x 2`
+  
+    - open file in other window: `C-x 4 C-f {insert filename here}`
+  
+  switch cursor to other window: `C-x o`
+  
+  scroll other window: `C-M-v`
+  
 
 ## Modifiers
 
