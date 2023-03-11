@@ -76,6 +76,8 @@
   
   Yank killed text: `C-y`
   
+  Cycle through killed lines to yank: `M-y`
+  
 ## Help
 
   open help window for {specific command}: `C-h k` + {specific command}
