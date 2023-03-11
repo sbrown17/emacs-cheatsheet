@@ -6,7 +6,7 @@
   
   `<RET>`: Enter|Return
 
-  `<SPC>`: Spacebar
+  `<SPC>`: Spacebar - commonly used to activate commands that are disabled by default (ones that may be more harmful than helpful for new users)
 
   Delete: remove character and can't reinsert it
  
