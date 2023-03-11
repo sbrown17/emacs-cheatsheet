@@ -136,5 +136,10 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   open help window for {specific command}: `C-h k` + {specific command}
 
   scroll help window: `C-M-v`
-
+  
+### Recursive editing level
+  
+  Identify recursive editing level: Mode line will have square brackets around major mode. eg. [(Fundamental)] instead of (Fundamental)
+  
+  exit recursive editing level: `<ESC> <ESC> <ESC>`
 
