@@ -29,6 +29,8 @@
 ## Modifiers
 
   numeric modifier of commands: `C-u` + a number | eg (`C-u 8 *` to insert 8 asterisks)
+  
+  undo: `C-/`
 
 ## Movement
   
