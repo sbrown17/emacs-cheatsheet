@@ -28,7 +28,7 @@ Switch Major Modes: `M-x {insert mode here}` some modes include `fundamental-mod
 
 ## Minor Modes
 
-toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill-mode`
+Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill-mode`
 
 ## File Search & Manipulation
 
@@ -36,33 +36,33 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   
     - finding a non-existent file will create a new one, finding multiple will open multiple buffers each with one of the files within
 
-  dired: `M-x dired` dired is a better find file, it opens a file manager in emacs
+  Dired: `M-x dired` dired is a better find file, it opens a file manager in emacs
   
-  end emacs session: `C-x C-c`
+  End emacs session: `C-x C-c`
   
-  adjust line length/margin: `C-x f {insert number}` The default should be 70
+  Adjust line length/margin: `C-x f {insert number}` The default should be 70
 
   ### Buffer Management
 
-  open eshell: `M-x eshell`
+  Open eshell: `M-x eshell`
 
-  list buffers: `C-x C-b`
+  List buffers: `C-x C-b`
 
-  save current buffer: `C-x C-s`
+  Save current buffer: `C-x C-s`
 
-  save all buffers: `C-x s`
+  Save all buffers: `C-x s`
 
-  close all buffers except the focused one: `C-x 1`
+  Close all buffers except the focused one: `C-x 1`
   
   ### Window management (inside single emacs client)
   
-  split screen into 2 windows: `C-x 2`
+  Split screen into 2 windows: `C-x 2`
   
     - open file in other window: `C-x 4 C-f {insert filename here}`
   
-  switch cursor to other window: `C-x o`
+  Switch cursor to other window: `C-x o`
   
-  scroll other window: `C-M-v`
+  Scroll other window: `C-M-v`
   
   ### Frame management (open/manipulate multiple emacs clients)
   
@@ -73,45 +73,45 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
 
 ## Modifiers
 
-  numeric modifier of commands: `C-u` + a number | eg (`C-u 8 *` to insert 8 asterisks)
+  Numeric modifier of commands: `C-u` + a number | eg (`C-u 8 *` to insert 8 asterisks)
   
-  undo: `C-/` or `C-_` of `C-x` (similar to yank, but you can undo deleted text as well, not just killed text)
+  Undo: `C-/` or `C-_` of `C-x` (similar to yank, but you can undo deleted text as well, not just killed text)
   
-  insert non-ascii/unicode characters by name: `C-x 8`
+  Insert non-ascii/unicode characters by name: `C-x 8`
 
 ## Movement
   
-  next page: `C-v`
+  Next page: `C-v`
   
-  previous page: `M-v`
+  Previous page: `M-v`
   
-  move to cursor: `C-l` (1x centers, 2x moves cursor line to top, 3x moves to bottom)
+  Move to cursor: `C-l` (1x centers, 2x moves cursor line to top, 3x moves to bottom)
   
-  move cursor up (previous): `C-p`
+  Move cursor up (previous): `C-p`
   
-  move cursor down (next): `C-n`
+  Move cursor down (next): `C-n`
   
-  move cursor forward: `C-f`
+  Move cursor forward: `C-f`
   
-  move cursor backward: `C-b`
+  Move cursor backward: `C-b`
   
-  move cursor forward by a word: `M-f`
+  Move cursor forward by a word: `M-f`
   
-  move cursor back by a word: `M-b`
+  Move cursor back by a word: `M-b`
   
-  move curser to beginning of line: `C-a`
+  Move curser to beginning of line: `C-a`
   
-  move curser to end of line: `C-e`
+  Move curser to end of line: `C-e`
   
-  move cursor to end of sentence: `M-e`
+  Move cursor to end of sentence: `M-e`
   
-  move cursor to beginning of sentence: `M-a`
+  Move cursor to beginning of sentence: `M-a`
   
   ### Search
   
-  search forward: `C-s`
+  Search forward: `C-s`
   
-  search reverse: `C-r`
+  Search reverse: `C-r`
   
 ## Delete | Copy | Paste
   
@@ -135,25 +135,25 @@ toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   
 ## Help
 
-  general help menu: `C-h ?`
+  General help menu: `C-h ?`
   
   Open Emacs help Directory: `C-h r`
   
   Describe a function: `C-h f` + {name of function}
   
-  List of commands whose name conatain {keyword}: `C-h a` + {keyword}
+  List of commands whose name contain {keyword}: `C-h a` + {keyword}
   
-  help description in mini buffer for command: `C-h c` + {specific command} eg. `C-h c C-p` should give back "C-p runs the command previous-line"
+  Help description in mini buffer for command: `C-h c` + {specific command} eg. `C-h c C-p` should give back "C-p runs the command previous-line"
 
-  open help window for {specific command}: `C-h k` + {specific command}
+  Open help window for {specific command}: `C-h k` + {specific command}
 
-  scroll help window: `C-M-v`
+  Scroll help window: `C-M-v`
   
-  read included manuals(manuals for packages installed on system): `C-h i`
+  Read included manuals(manuals for packages installed on system): `C-h i`
   
 ### Recursive editing level
   
   Identify recursive editing level: Mode line will have square brackets around major mode. eg. [(Fundamental)] instead of (Fundamental)
   
-  exit recursive editing level: `<ESC> <ESC> <ESC>`
+  Exit recursive editing level: `<ESC> <ESC> <ESC>`
 
