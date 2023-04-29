@@ -44,7 +44,7 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
 
   ### Buffer Management
 
-  Open eshell: `M-x eshell`
+  Open eshell (console/terminal): `M-x eshell`
 
   List buffers: `C-x C-b`
 
