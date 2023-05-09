@@ -18,6 +18,10 @@
  
   Yanking: reinserting killed string
 
+## Misc Commands
+
+  Exit/Cancel/Quit/Stop a command (use this if you mistyped something): `C-g` 
+
 ## Modes
 
 ### Major Modes
