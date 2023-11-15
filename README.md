@@ -48,17 +48,29 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
 
   ### Buffer Management
 
-  Open eshell (console/terminal): `M-x eshell`
-   - Terminate process in eshell: `C-c C-c`
+  Open/Create a new buffer: `C-x b {buffer}` where {buffer} is the name of your new buffer, this will also switch to a buffer of that name if there is one
 
+  Open/Create a buffer in a new window: `C-x 4 b {buffer}`
+
+  Open/Create a buffer in a new frame: `C-x 5 b {buffer}`
+
+  Select previous buffer: `C-x Left` where left is left arrow key
+
+  Select next buffer: `C-x Right`
+  
   List buffers: `C-x C-b`
 
   Save current buffer: `C-x C-s`
 
   Save all buffers: `C-x s`
 
+  Close current/focused buffer: `C-x 0`
+
   Close all buffers except the focused one: `C-x 1`
   
+  Open eshell (console/terminal): `M-x eshell`
+   - Terminate process in eshell: `C-c C-c`
+
   ### Window management (inside single emacs client)
   
   Split screen into 2 windows: `C-x 2`
