@@ -53,13 +53,7 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   Open/Create a buffer in a new window: `C-x 4 b {buffer}`
 
   Open/Create a buffer in a new frame: `C-x 5 b {buffer}`
-
-  Select previous buffer: `C-x Left` where left is left arrow key
-
-  Select next buffer: `C-x Right`
   
-  List buffers: `C-x C-b`
-
   Save current buffer: `C-x C-s`
 
   Save all buffers: `C-x s`
@@ -68,8 +62,13 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
 
   Close all buffers except the focused one: `C-x 1`
   
-  Open eshell (console/terminal): `M-x eshell`
-   - Terminate process in eshell: `C-c C-c`
+  ### Buffer Navigation
+
+  Select previous buffer: `C-x Left` where left is left arrow key
+
+  Select next buffer: `C-x Right`
+  
+  List buffers: `C-x C-b`
 
   ### Window management (inside single emacs client)
   
@@ -86,7 +85,11 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   Open second frame: `C-x 5 2`
   
   Close selected frame: `C-x 5 0`
- 
+
+  ### Eshell
+  
+  Open eshell (console/terminal): `M-x eshell`
+   - Terminate process in eshell: `C-c C-c`
 
 ## Modifiers
 
