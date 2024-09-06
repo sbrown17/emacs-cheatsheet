@@ -148,8 +148,10 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   Kill to the end of the sentence: `M-k`
   
   Kill spanse of characters: `C-<SPC>` move cursor to highlight spanse `C-w`
+
+  Copy (kill-ring-save) text: `M-w`
   
-  Yank killed text: `C-y`
+  Yank (paste) killed text: `C-y`
   
   Cycle through killed lines to yank: `M-y`
   
