@@ -40,7 +40,11 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   
     - finding a non-existent file will create a new one, finding multiple will open multiple buffers each with one of the files within
 
+### Dired
+  
   Dired: `M-x dired` dired is a better find file, it opens a file manager in emacs
+
+  Refresh Dired: 'g' while in dired
   
   End emacs session: `C-x C-c`
   
