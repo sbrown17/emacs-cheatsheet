@@ -183,3 +183,22 @@ Toggle minor modes: `M-x {insert mode here}` some minor modes include `auto-fill
   
   Exit recursive editing level: `<ESC> <ESC> <ESC>`
 
+### Magit
+
+Start magit: `C-x g`
+
+Fetch: `f`
+
+Commit: `c`
+
+Push: `p`
+
+### ERC (Emacs Relay Chat)
+  
+  List Chat Channels: `/list`
+  
+  Join Chat Channel: `/join {channelname}`
+
+  Leave Chat Channel: `/part`
+
+  Quit ERC: `/quit`
